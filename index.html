@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="Meet NOCTRA. A new perspective on spatial computing, immersive sound, and precision play. Explore the next generation of personal hardware.">
+  <title>NOCTRA — Beyond the ordinary.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/tailwind.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preload" as="image" href="assets/vision.webp">
+  <link rel="preload" as="font" href="assets/manrope.woff2" type="font/woff2" crossorigin>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header flex items-center justify-between" id="top">
+    <a class="wordmark flex items-center gap-3" href="#top" aria-label="Noctra home"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span>noctra<span class="brand-period">®</span></a>
+    <nav class="desktop-nav flex items-center gap-8" aria-label="Main navigation">
+      <a href="#vision" class="nav-link">Vision One</a>
+      <a href="#experience" class="nav-link">The experience</a>
+      <a href="#collection" class="nav-link">The collection</a>
+    </nav>
+    <a class="header-cta flex items-center gap-4" href="#collection">Explore NOCTRA <span class="circle-arrow" aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation"><span></span><span></span></button>
+  </header>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation" hidden>
+    <a href="#vision"><span>01</span>Vision One</a><a href="#experience"><span>02</span>The experience</a><a href="#collection"><span>03</span>The collection</a>
+  </nav>
+  <main id="main">
+    <section class="hero" id="vision" aria-labelledby="hero-title">
+      <div class="hero-topline flex items-center justify-between"><p class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> Engineered for what’s next</p><p class="hero-edition eyebrow">Independent by design. / EST. 2026</p></div>
+      <div class="hero-copy">
+        <h1 id="hero-title"><span class="line-mask"><span>Beyond</span></span><span class="line-mask"><span>the ordinary<span class="lime-dot">.</span></span></span></h1>
+        <div class="hero-description"><p>Your world. Without the edges.<br>Meet Vision One — a new way to see,<br>feel, and get lost in the moment.</p><a href="#experience" class="pill-button magnetic">Discover Vision One <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-visual" aria-label="Noctra Vision One spatial headset">
+        <div class="orbital orbital-one" aria-hidden="true"></div><div class="orbital orbital-two" aria-hidden="true"></div>
+        <div class="product-float"><img src="assets/vision.webp" alt="Vision One spatial headset with a curved black visor, brushed silver body, and woven headband" width="1536" height="1024" fetchpriority="high" class="hero-product"></div>
+        <span class="crosshair crosshair-one" aria-hidden="true">+</span><span class="crosshair crosshair-two" aria-hidden="true">+</span>
+        <div class="product-annotation"><span class="annotation-line" aria-hidden="true"></span><span>Less hardware.<br>More possibility.</span></div>
+      </div>
+      <div class="hero-bottom flex items-end justify-between"><a href="#experience" class="scroll-cue flex items-center gap-4"><span class="scroll-track" aria-hidden="true"><span></span></span>Scroll to step inside</a><div class="hero-index"><span class="index-bar" aria-hidden="true"></span><p><span>01 / 03</span>VISION ONE</p></div><p class="eyebrow concept-label">NOCTRA / CONCEPT SERIES</p></div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>A NEW POINT OF VIEW</span><span class="ticker-star">✳</span><span>HUMAN AT THE CORE</span><span class="ticker-star">✳</span><span>BEYOND THE ORDINARY</span><span class="ticker-star">✳</span><span>A NEW POINT OF VIEW</span><span class="ticker-star">✳</span><span>HUMAN AT THE CORE</span><span class="ticker-star">✳</span><span>BEYOND THE ORDINARY</span><span class="ticker-star">✳</span></div></div>
+    <section class="experience section-pad" id="experience" aria-labelledby="experience-title">
+      <div class="section-top flex items-center justify-between reveal"><p class="eyebrow">01 / THE EXPERIENCE</p><span class="section-mark" aria-hidden="true">✳</span></div>
+      <div class="experience-intro grid lg:grid-cols-2 gap-8"><h2 class="display-heading reveal" id="experience-title">Not another screen.<br><span>A whole new space.</span></h2><p class="section-description reveal">Break free from the frame. Turn your room into a front-row seat, your ideas into something tangible, and everyday moments into something else entirely.</p></div>
+      <div class="experience-stage reveal">
+        <div class="stage-grid" aria-hidden="true"></div><p class="stage-coordinate eyebrow">N° 001 — VISION ONE</p><div class="stage-vertical eyebrow" aria-hidden="true">DESIGNED TO DISAPPEAR</div>
+        <img src="assets/vision.webp" alt="A closer look at the silver frame and curved optical visor of Vision One" width="1536" height="1024" loading="lazy" class="stage-product">
+        <span class="stage-word" aria-hidden="true">IMMERSE.</span>
+        <button class="hotspot hotspot-one" data-feature="display" aria-label="Explore the immersive display" aria-expanded="false"><span aria-hidden="true">+</span></button>
+        <button class="hotspot hotspot-two" data-feature="comfort" aria-label="Explore the comfort design" aria-expanded="false"><span aria-hidden="true">+</span></button>
+        <div class="feature-popover" id="feature-popover" role="status" hidden><span class="eyebrow" id="feature-label"></span><h3 id="feature-title"></h3><p id="feature-copy"></p></div>
+        <div class="stage-bottom flex items-end justify-between"><p>Closer to everything.<br>Connected to you.</p><span class="stage-hint"><span aria-hidden="true">+</span> Explore the details</span></div>
+      </div>
+      <div class="feature-strip grid md:grid-cols-3">
+        <article class="feature-item reveal"><span class="feature-no">[ 01 ]</span><h3>Reality, expanded.</h3><p>Your surroundings become your canvas. Stay present while making space for more.</p></article>
+        <article class="feature-item reveal"><span class="feature-no">[ 02 ]</span><h3>Instinctively yours.</h3><p>Look. Reach. Connect. An experience shaped around the way you naturally move.</p></article>
+        <article class="feature-item reveal"><span class="feature-no">[ 03 ]</span><h3>Nothing in the way.</h3><p>A sculpted frame and soft woven fit. Every detail made to help the hardware fade away.</p></article>
+      </div>
+    </section>
+    <section class="engineering section-pad" id="engineering" aria-labelledby="engineering-title">
+      <div class="section-top flex items-center justify-between reveal"><p class="eyebrow">02 / THE THINKING BEHIND IT</p><p class="eyebrow">LESS, BUT CONSIDERED.</p></div>
+      <div class="engineering-layout grid lg:grid-cols-2 gap-8">
+        <div class="engineering-heading"><h2 class="display-heading reveal" id="engineering-title">Precision you see.<br><span>Freedom you feel.</span></h2><div class="engineering-detail reveal"><span class="detail-symbol" aria-hidden="true">✳</span><p>Beautiful on the outside.<br>Obsessive about what’s inside.</p></div></div>
+        <div class="engineering-accordion">
+          <details class="reveal" open><summary><span class="accordion-number">01</span>Form follows feeling.<span class="accordion-icon" aria-hidden="true">+</span></summary><div class="accordion-content"><p>A continuous curved visor meets a precisely sculpted metal frame. Clean lines, balanced proportions, and a soft-touch band that puts comfort first.</p><span class="detail-tag">SCULPTED ALUMINUM / WOVEN TEXTILE</span></div></details>
+          <details class="reveal"><summary><span class="accordion-number">02</span>Built around you.<span class="accordion-icon" aria-hidden="true">+</span></summary><div class="accordion-content"><p>Thoughtful weight distribution and an adjustable fit make room for different faces and different ways of moving. The starting point is always the person wearing it.</p><span class="detail-tag">ADJUSTABLE FIT / HUMAN-FIRST DESIGN</span></div></details>
+          <details class="reveal"><summary><span class="accordion-number">03</span>Every detail belongs.<span class="accordion-icon" aria-hidden="true">+</span></summary><div class="accordion-content"><p>From the transition between glass and metal to the texture of the band, each element has a purpose. Nothing added just to get in the way.</p><span class="detail-tag">REFINED MATERIALS / PURPOSEFUL DETAILS</span></div></details>
+        </div>
+      </div>
+    </section>
+    <section class="collection section-pad" id="collection" aria-labelledby="collection-title">
+      <div class="section-top flex items-center justify-between reveal"><p class="eyebrow">03 / THE COLLECTION</p><p class="eyebrow">THREE WAYS TO GO FURTHER.</p></div>
+      <div class="collection-intro flex items-end justify-between gap-8 reveal"><h2 class="display-heading" id="collection-title">One vision.<br><span>Different dimensions.</span></h2><p>See more. Feel more. Do more.<br>Find your way into NOCTRA.</p></div>
+      <div class="collection-tabs" role="tablist" aria-label="Explore the product collection">
+        <button class="collection-tab is-active" role="tab" aria-selected="true" aria-controls="product-panel" id="tab-vision" data-product="vision" tabindex="0"><span class="tab-index">01</span><span>Vision One</span><span class="tab-category">SPATIAL</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+        <button class="collection-tab" role="tab" aria-selected="false" aria-controls="product-panel" id="tab-motion" data-product="motion" tabindex="-1"><span class="tab-index">02</span><span>Motion One</span><span class="tab-category">PRECISION</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+        <button class="collection-tab" role="tab" aria-selected="false" aria-controls="product-panel" id="tab-sound" data-product="sound" tabindex="-1"><span class="tab-index">03</span><span>Sound One</span><span class="tab-category">IMMERSION</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+      </div>
+      <div class="product-panel grid lg:grid-cols-2" id="product-panel" role="tabpanel" aria-labelledby="tab-vision" tabindex="0">
+        <div class="collection-art"><span class="product-backdrop-number" aria-hidden="true">01</span><img id="collection-image" src="assets/vision.webp" alt="Vision One spatial computing headset" width="1536" height="1024" loading="lazy"><span class="art-cross" aria-hidden="true">+</span></div>
+        <div class="collection-copy"><span class="eyebrow" id="collection-kicker">A NEW POINT OF VIEW</span><h3 id="collection-name">Vision One<span>™</span></h3><p id="collection-description">Make a little more room for possibility. Spatial computing that brings your digital world into the space around you.</p><div class="collection-tags flex flex-wrap gap-3" id="collection-tags"><span>Spatial computing</span><span>Intuitive by design</span></div><button class="text-button" id="product-details" data-product="vision">Take a closer look <span class="circle-arrow" aria-hidden="true">↗</span></button><span class="concept-note">Concept hardware. A glimpse of what could be.</span></div>
+      </div>
+    </section>
+    <section class="closing section-pad" aria-labelledby="closing-title"><div class="closing-top flex items-center justify-between reveal"><p class="eyebrow">OPEN YOUR NEXT CHAPTER.</p><span class="closing-star" aria-hidden="true">✳</span></div><div class="closing-main"><h2 id="closing-title" class="reveal">The future<br>feels <span>different.</span></h2><a href="#vision" class="closing-link magnetic" aria-label="Experience Vision One"><span aria-hidden="true">↗</span><span class="closing-link-label">Experience<br>Vision One</span></a></div><div class="closing-bottom flex items-center justify-between"><p>Made for curious minds.<br>Designed to move you.</p><p class="eyebrow">ALWAYS EXPLORING. NEVER ORDINARY.</p></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-main flex items-center justify-between"><a class="wordmark flex items-center gap-3" href="#top" aria-label="Noctra home"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span>noctra<span class="brand-period">®</span></a><nav class="flex gap-8" aria-label="Footer navigation"><a href="#experience">Experience</a><a href="#engineering">Engineering</a><a href="#collection">Collection</a></nav><a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a></div><div class="footer-bottom flex items-center justify-between"><p>© 2026 NOCTRA. An independent design concept.</p><button class="motion-toggle" aria-pressed="false"><span class="motion-indicator" aria-hidden="true"></span><span class="motion-label">Motion on</span></button><p>IMAGINED WITHOUT LIMITS.</p></div></footer>
+  <dialog class="product-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" aria-label="Close product details"><span aria-hidden="true">×</span></button><div class="dialog-visual"><img id="dialog-image" src="assets/vision.webp" alt="" width="1536" height="1024"></div><div class="dialog-copy"><span class="eyebrow" id="dialog-kicker"></span><h2 id="dialog-title"></h2><p id="dialog-description"></p><dl id="dialog-features"></dl><p class="dialog-note">An original hardware concept. Product specifications, availability, and pricing have not been announced.</p></div></div></dialog>
+  <div class="transition-curtain" aria-hidden="true"><span>noctra®</span></div>
+  <noscript><style>.reveal,.line-mask>span,.hero-description,.hero-visual,.hero-bottom{opacity:1!important;transform:none!important}.collection-tabs,.hotspot,.motion-toggle,#product-details{display:none!important}</style></noscript>
+</body>
+</html>
